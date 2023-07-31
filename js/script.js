@@ -47,7 +47,7 @@ function changeBackground(weatherCondition) {
     }
 }
 
-async function initWeatherApp() {
+async function weatherApp() {
     const searchButton = document.getElementById('search-btn')
     const cityInput = document.getElementById('cityName')
 
@@ -58,5 +58,4 @@ async function initWeatherApp() {
         displayWeatherData(weatherData)
     })
 }
-
-initWeatherApp();
+weatherApp();
